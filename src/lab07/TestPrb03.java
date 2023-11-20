@@ -1,9 +1,5 @@
 package lab07;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Random;
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -16,9 +12,11 @@ public class TestPrb03 {
 		JFrame gui= new JFrame("Calculator");
 		gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		gui.setSize(395,520);
+		ZonaText z=new ZonaText();
 		
 		gui.getContentPane().setBackground(Color.cyan);
 		gui.setLayout(null);
+		apasareButon buttonListener = new apasareButon(z);
 		
 		Butoane b[]=new Butoane[16];
 		
@@ -26,14 +24,11 @@ public class TestPrb03 {
 		{
 			b[i-1]=new Butoane(argumente[i-1],10+((i-1)%4)*90,115+((i-1)/4)*90);
 			gui.add(b[i-1]);
+			b[i - 1].addActionListener(buttonListener);
 		}
-		ZonaText z=new ZonaText();
+		
 		gui.add(z);
-		
-		
 		gui.setVisible(true);
-		
-        
 	}
 
 }
