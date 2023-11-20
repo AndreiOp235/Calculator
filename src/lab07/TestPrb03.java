@@ -2,6 +2,10 @@ package lab07;
 
 import javax.swing.*;
 import java.awt.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class TestPrb03 {
 
@@ -29,6 +33,11 @@ public class TestPrb03 {
 		
 		gui.add(z);
 		gui.setVisible(true);
+		
+		Path path = Paths.get("myfolder", "myfile.txt");
+
+		System.out.println(path);;
+
 	}
 
 }

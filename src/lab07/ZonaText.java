@@ -15,6 +15,7 @@ public class ZonaText extends JTextArea{
 	ZonaText()
 	{
 		setBounds(10, 10, 360, 100);
+		this.setEditable(false);
 	}
 	
 	void adaugaText(String in)
@@ -34,6 +35,7 @@ public class ZonaText extends JTextArea{
 		{
 			this.setText(continut+ " P");
 			this.setText(executabil.ruleaza(this.getText()));
+			this.setText(ZonaText.removeLastCharacter(this.getText()));
 		}
 		else
 		{

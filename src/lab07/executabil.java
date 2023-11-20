@@ -6,29 +6,21 @@ import java.util.concurrent.TimeUnit;
 public class executabil {
 
     public static String ruleaza(String input) {
-        // Specify the C++ program command and its arguments
-        String cppProgram = "F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug\\Project1.exe"; // Replace with your actual C++ program executable
-
-        // Specify the content to be written to "in.txt"
+        String cppProgram = "F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug\\Project1.exe";
         String contentToWrite = input;
 
-        // Write content to "in.txt" and close the file
         writeAndCloseFile("F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug\\in.txt", contentToWrite);
 
         try {
-            // Execute the C++ program
-            //ProcessBuilder processBuilder = new ProcessBuilder(command);
-            //Process process = processBuilder.start();
-        	Runtime.getRuntime().exec(cppProgram, null, new File("F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug"));
+        	Process verifica =Runtime.getRuntime().exec(cppProgram, null, new File("F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug"));
         	
             TimeUnit.SECONDS.sleep(1);
+            int exitCode = verifica.waitFor();
             // Wait for the C++ program to complete
-           
-
-            // Read the output from "out.txt"
-            return readFromFile("F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug\\out.txt");
-
-            
+            if (exitCode!=0)
+            	return "Introducere eronata";
+            else
+            	return readFromFile("F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug\\out.txt");
 
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
