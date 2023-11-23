@@ -1,5 +1,7 @@
 package lab07;
 
+import java.awt.Font;
+
 import javax.swing.JButton;
 
 public class Butoane extends JButton{
@@ -12,5 +14,7 @@ public class Butoane extends JButton{
 	{
 		setText(t);
 		setBounds(x, y, 90, 90);
+		Font buttonFont = new Font(getFont().getName(), Font.BOLD, getFont().getSize() + 4);
+        setFont(buttonFont);
 	}
 }
