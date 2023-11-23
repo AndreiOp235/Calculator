@@ -6,13 +6,13 @@ import java.util.concurrent.TimeUnit;
 public class executabil {
 
     public static String ruleaza(String input) {
-        String cppProgram = "F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug\\Project1.exe";
+        String cppProgram = TestPrb03.caleEXEC;
         String contentToWrite = input;
 
-        writeAndCloseFile("F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug\\in.txt", contentToWrite);
+        writeAndCloseFile(cppProgram + "\\in.txt", contentToWrite);
 
         try {
-        	Process verifica =Runtime.getRuntime().exec(cppProgram, null, new File("F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug"));
+        	Process verifica =Runtime.getRuntime().exec(cppProgram+"\\Project1.exe", null, new File(cppProgram));
         	
             TimeUnit.SECONDS.sleep(1);
             int exitCode = verifica.waitFor();
@@ -20,7 +20,7 @@ public class executabil {
             if (exitCode!=0)
             	return "Introducere eronata";
             else
-            	return readFromFile("F:\\WIP\\C++\\Playground\\Project1\\x64\\Debug\\out.txt");
+            	return readFromFile(cppProgram+"\\out.txt");
 
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
