@@ -81,26 +81,6 @@ public class TestPrb03 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * placeholder lines b[0].setBorder(BorderFactory.createLineBorder(new
  * Color(0, 0, 0, 0), (int) (0.01 * b[0].getWidth())));
