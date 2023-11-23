@@ -25,6 +25,20 @@ public class ZonaText extends JTextArea{
 		{
 			this.setText(ZonaText.removeLastCharacter(this.getText()));
 		}
+		else if (in == "CLR")
+		{
+			{
+				this.setText("");
+			}
+		}
+		else if (in == "(")
+		{
+			this.setText(continut+ in + " ");
+		}
+		else if (in == ")")
+		{
+			this.setText(continut+ " " + in);
+		}
 		else if(in =="+"||in =="-"||in =="*"||in =="÷")
 		{
 			if (in == "÷")
@@ -33,6 +47,11 @@ public class ZonaText extends JTextArea{
 		}
 		else if(in=="=")
 		{
+			if ((continut.charAt(0) + "").equals(" ")) 
+			{
+			    continut=continut.substring(1);
+			}
+			
 			this.setText(continut+ " P");
 			this.setText(executabil.ruleaza(this.getText()));
 			this.setText(ZonaText.removeLastCharacter(this.getText()));

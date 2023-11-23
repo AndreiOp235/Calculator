@@ -10,7 +10,11 @@ import java.nio.file.Paths;
 public class TestPrb03 {
 
 	public static void main(String[] args) {
+<<<<<<< Updated upstream
 		String argumente[]= {"7","8","9","del","4","5","6","÷","1","2","3","*","0","+","-","="};
+=======
+		String argumente[]= {"7","8","9","del","4","5","6","÷","1","2","3","*","+","0","-","CLR","(",".",")","="};
+>>>>>>> Stashed changes
 		// TODO Auto-generated method stub
 		System.out.println("Neata !");
 		JFrame gui= new JFrame("Calculator");
@@ -33,10 +37,6 @@ public class TestPrb03 {
 		
 		gui.add(z);
 		gui.setVisible(true);
-		
-		Path path = Paths.get("myfolder", "myfile.txt");
-
-		System.out.println(path);;
 
 	}
 
