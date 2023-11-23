@@ -29,7 +29,7 @@ public class ZonaText extends JTextArea{
 		{
 			if (in == "÷")
 				in = "/";
-			this.setText(continut+ " " + in + " ");
+			this.setText(continut + " " + in + " ");
 		}
 		else if(in=="=")
 		{
