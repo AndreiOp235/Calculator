@@ -64,3 +64,484 @@ public class TestPrb03 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * placeholder lines b[0].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[0].getWidth())));
+ * b[1].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[1].getWidth()))); b[2].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[2].getWidth())));
+ * b[3].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[3].getWidth()))); b[4].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[4].getWidth())));
+ * b[5].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[5].getWidth()))); b[6].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[6].getWidth())));
+ * b[7].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[7].getWidth()))); b[8].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[8].getWidth())));
+ * b[9].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ * b[0].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[0].getWidth()))); b[1].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[1].getWidth())));
+ * b[2].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[2].getWidth()))); b[3].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[3].getWidth())));
+ * b[4].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[4].getWidth()))); b[5].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[5].getWidth())));
+ * b[6].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[6].getWidth()))); b[7].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[7].getWidth())));
+ * b[8].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[8].getWidth()))); b[9].setBorder(BorderFactory.createLineBorder(new
+ * Color(0, 0, 0, 0), (int) (0.01 * b[9].getWidth())));
+ * b[10].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[10].getWidth())));
+ * b[11].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[11].getWidth())));
+ * b[12].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[12].getWidth())));
+ * b[13].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[13].getWidth())));
+ * b[14].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[14].getWidth())));
+ * b[15].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[15].getWidth())));
+ * b[16].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[16].getWidth())));
+ * b[17].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[17].getWidth())));
+ * b[18].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[18].getWidth())));
+ * b[19].setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0, 0), (int)
+ * (0.01 * b[19].getWidth())));
+ */
+
